@@ -57,10 +57,3 @@ We welcome contributions! Feel free to:
 
 *This repository is part of our ongoing effort to support Lao NLP and make language technology more accessible for underrepresented and low-resource languages.*
 """
-
-# Save to file
-file_path = '/mnt/data/README.md'
-with open(file_path, 'w') as f:
-    f.write(readme_content)
-
-file_path
