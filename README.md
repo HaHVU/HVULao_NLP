@@ -30,6 +30,14 @@ This folder contains the **training dataset**, consisting of 10,000 Lao sentence
 
 > All data files are UTF-8 encoded and prepared for easy use in NLP pipelines.
 
+## 📁 The Lao sentence segment tool:
+### 🔹 `Download and installs`
+### 🔹 `Run`
+
+## 📁 The Lao sentence POS tagging tool:
+### 🔹 `Download and installs`
+### 🔹 `Run`
+
 ## 📚 Usage
 
 These datasets are intended for:
