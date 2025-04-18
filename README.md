@@ -318,6 +318,7 @@ Corresponding author: **Ha Nguyen-Tien** (nguyentienha@hvu.edu.vn)
   doi       = {10.1109/ACCESS.2025.0429000},
   note      = {Faculty of Engineering and Technology, Hung Vuong University, Vietnam}
 }
+```
 
 ## 📬 Contact
 
