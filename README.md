@@ -298,16 +298,8 @@ We welcome contributions! Feel free to:
 
 If you use this repository or our dataset in your research, please cite the following paper:
 ```Cite
-**Ha Nguyen-Tien**, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung.  
-"A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages."  
-Faculty of Engineering and Technology, Hung Vuong University, Nguyen Tat Thanh Street, Phu Tho 350000, Vietnam.  
-Published in IEEE Access.  
-Date of publication: xxxx 00, 0000  
-Date of current version: xxxx 00, 0000  
-DOI: [10.1109/ACCESS.2025.0429000](https://doi.org/10.1109/ACCESS.2025.0429000)  
-Corresponding author: **Ha Nguyen-Tien** (nguyentienha@hvu.edu.vn)
+Ha. Nguyen-Tien, Thong. Palongve, Cuong. Nguyen-Quy, and Kiem. Le-Trung, “A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages,” IEEE Access, doi: 10.1109/ACCESS.2025.0429000.
 ```
-
 ### 📚 BibTeX
 
 ```bibtex
