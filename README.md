@@ -49,7 +49,7 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 - Python 3.7+
 - PyTorch
 - Transformers (Hugging Face)
-- A fine-tuned model (default path: `lao_finetuned_10k`)
+- A fine-tuned model (Please download at: https://huggingface.co/Tienha123/Segmenttool/tree/main`)
 
 You can install the dependencies with:
 
@@ -250,8 +250,11 @@ source ~/.bashrc   # or: source ~/.zshrc
 ---
 
 ## How to Run the LaoPostagtool
+- The first, you have to download the model from this link: https://huggingface.co/Tienha123/LaoPostagtool/tree/main
+- after, extract it to root folder.
+- Move into this folder
 
-In VS Code: Open Terminal and run the following command:
+- In VS Code: Open Terminal and run the following command:
 
 ```bash
 python3 Pos_tagging.py <segmented_input_file> <output_directory>
@@ -291,12 +294,47 @@ We welcome contributions! Feel free to:
 - Submit pull requests
 - Suggest improvements or additional data
 
+📄 Citation
+If you use this repository or our dataset in your research, please cite the following paper:
+
+Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung.
+"A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages."
+Faculty of Engineering and Technology, Hung Vuong University, Nguyen Tat Thanh Street, Phu Tho 350000, Vietnam.
+Published in IEEE Access.
+Date of publication: xxxx 00, 0000
+Date of current version: xxxx 00, 0000
+DOI: 10.1109/ACCESS.2024.0429000
+Corresponding author: Ha Nguyen-Tien (nguyentienha@hvu.edu.vn)
+
+📚 BibTeX
+bibtex
+Sao chép
+Chỉnh sửa
+@article{nguyen2024wordsegmentation,
+  author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
+  title     = {A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages},
+  journal   = {IEEE Access},
+  year      = {2024},
+  doi       = {10.1109/ACCESS.2024.0429000},
+  note      = {Faculty of Engineering and Technology, Hung Vuong University, Vietnam}
+}
+
 ## 📬 Contact
 
-- **Maintainer**: Nguyen Tien Ha  
-- **Email**: nguyentienha@hvu.edu.vn  
-- **Institution**: Hung Vuong University, Phu Tho, Vietnam  
-- **Website**: [https://hvu.edu.vn](https://hvu.edu.vn)
+- **Ha Nguyen-Tien** (Corresponding author)  
+  Email: nguyentienha@hvu.edu.vn
+
+- **Thongphan Palongve**  
+  Email: tkvue73@gmail.com
+
+- **Cuong Nguyen-Quy**  
+  Email: t12345cuong@gmail.com
+
+- **Kien Le-Trung**  
+  Email: kiendeptrai06022003@gmail.com
+
+📍 Institution: Faculty of Engineering and Technology, Hung Vuong University, Phu Tho, Vietnam  
+🌐 Website: [https://hvu.edu.vn](https://hvu.edu.vn)
 
 ---
 
