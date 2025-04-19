@@ -44,6 +44,15 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 
 ---
 
+## 📊 Evaluation Results
+--------------------------------------------------------------
+| Model                    | Precision | Recall   | F1-Score |
+|--------------------------|-----------|----------|----------|
+| LaoNLP [3]               |  0.71     |   0.71   | 0.71     |
+| Flores [2]               |  0.37     |   0.56   | 0.45     |
+| **Our Fine-tuned Model** | **0.76**  | **0.74** | **0.75** |
+--------------------------------------------------------------
+
 ## Requirements
 
 - Python 3.7+
