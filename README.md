@@ -50,7 +50,7 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 |--------------------------|-----------|----------|----------|
 | LaoNLP                   |  0.71     |   0.71   | 0.71     |
 | Flores                   |  0.37     |   0.56   | 0.45     |
-| **Our Fine-tuned Model** | **0.76**  | **0.74** | **0.75** |
+| **Our tool**             | **0.76**  | **0.74** | **0.75** |
 --------------------------------------------------------------
 
 ## Requirements
