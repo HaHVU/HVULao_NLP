@@ -307,19 +307,20 @@ We welcome contributions! Feel free to:
 
 If you use this repository or our dataset in your research, please cite the following paper:
 ```Cite
-Ha. Nguyen-Tien, Thong. Palongve, Cuong. Nguyen-Quy, and Kiem. Le-Trung, “A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages,” IEEE Access, doi: 10.1109/ACCESS.2025.0429000.
+Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages: Method and Application. ACM Trans. Asian Low-Resour. Lang. Inf. Process. (TALLIP). https://doi.org/XXXXXXX.XXXXXXX
 ```
 ### 📚 BibTeX
 
 ```bibtex
-@article{nguyen2024wordsegmentation,
+@article{nguyen2025building,
   author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
-  title     = {A Novel Approach to Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages},
-  journal   = {IEEE Access},
+  title     = {Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages: Method and Application},
+  journal   = {ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)},
   year      = {2025},
-  doi       = {10.1109/ACCESS.2025.0429000},
-  note      = {Faculty of Engineering and Technology, Hung Vuong University, Vietnam}
+  note      = {Submitting},
+  doi       = {10.1145/XXXXXXX.XXXXXXX}
 }
+
 ```
 
 ## 📬 Contact
