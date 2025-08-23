@@ -28,7 +28,12 @@ This folder contains the **test dataset**, consisting of 1,000 Lao sentences:
 This folder contains the **training dataset**, consisting of 10,000 Lao sentences:
 
 - **`10ktrainorin.txt`**  
-  → The original 10,000 Lao sentences in raw form (without segmentation or annotation).
+Original 10,000 Lao sentences in raw form (no segmentation or POS tags).  
+  *Format:* one sentence per line (UTF-8).
+
+- **`10ksegmented.txt`**  
+  Word-segmented version aligned 1-to-1 with `10ktrainorin.txt`.  
+  *Format:* each line is the segmented form of the same-index sentence; tokens separated by a single space.
 
 - **`10ktraintag.json`**  
   → The same 10,000 sentences with **word segmentation** and **POS tagging**, created using the same method as the test data.
