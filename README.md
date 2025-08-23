@@ -12,8 +12,13 @@ This repository provides a semi-automatically constructed corpus consisting of L
 
 This folder contains the **test dataset**, consisting of 1,000 Lao sentences:
 
-- **`testorgin1k.txt`**  
-  → The original 1,000 Lao sentences in raw form (without segmentation or annotation).
+- **`testorgin1000.txt`**  
+  Original 1,000 Lao sentences in raw form (no segmentation or POS tags).  
+  *Format:* one sentence per line (UTF-8).
+
+- **`testsegsent_1000.txt`**  
+  Word-segmented version aligned 1-to-1 with `testorgin1000.txt`.  
+  *Format:* each line is the segmented form of the same-index sentence; tokens separated by a single space.
 
 - **`testtag1k.json`**  
   → The same 1,000 sentences with **word segmentation** and **POS tagging**. These sentences are created using large language models (LLMs) like ChatGPT and then manually reviewed and corrected by native linguists.
