@@ -68,7 +68,7 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 - Python 3.7+
 - PyTorch
 - Transformers (Hugging Face)
-- A fine-tuned model (Please download at: https://huggingface.co/Tienha123/Segmenttool/tree/main`)
+- A fine-tuned model (Please download at: https://huggingface.co/Tienha123/Segmenttool/tree/main)
 
 You can install the dependencies with:
 
