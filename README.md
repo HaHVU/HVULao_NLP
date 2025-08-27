@@ -160,10 +160,10 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. B
 @article{nguyen2025building,
   author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
   title     = {Building and Releasing a Word-Segmented Corpus for Lao: A Resource for Low-Resource NLP},
-  journal = {Data in Brief},
+  journal = {Informatica},
   year      = {2025},
   note      = {Submitting},
-  doi       = {10.1145/XXXXXXX.XXXXXXX}
+  doi       = {xxx.xxx/XXXXXXX.XXXXXXX}
 }
 
 ```
