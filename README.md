@@ -159,8 +159,8 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. B
 ```bibtex
 @article{nguyen2025building,
   author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
-  title     = {Building and Releasing a Word-Segmented Corpus for Lao: A Resource for Low-Resource NLP},
-  journal = {Informatica},
+  title     = {xxxx},
+  journal = {xxxxxx},
   year      = {2025},
   note      = {Submitting},
   doi       = {xxx.xxx/XXXXXXX.XXXXXXX}
