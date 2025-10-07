@@ -137,7 +137,7 @@ This repository also provides the full training script used in our paper:
 | Warm-up ratio | 0.1 |
 | Epochs | 10 |
 | FP16 | Enabled |
-| Seeds | 42 |
+| Seeds | 13, 21, 42, 87, 123 |
 
 > Hardware: NVIDIA RTX 3090 (24 GB VRAM); training time ≈ 40 minutes per run.
 
@@ -150,7 +150,7 @@ Update the constants `TRAIN_JSON` and `TEST_JSON` inside the script if paths dif
 
 ### ▶️ Run Command
 ```bash
-python FineTuneSegLaowithseed.py
+python FineTuneSegLaowithseeds.py
 ```
 Outputs:
 - `results_multi_seed/` – trained checkpoints  
