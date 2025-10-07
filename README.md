@@ -85,7 +85,7 @@ pip install torch transformers
 3. Make sure your Python script is executable:
 
    ```bash
-   chmod +x segment_lao.py
+   chmod +x scripts/segment_lao.py
    ```
 
 ---
@@ -102,7 +102,7 @@ pip install torch transformers
 Run the script from the command line:
 
 ```bash
-python3 segment_lao.py -i <input_file> -o <output_file>
+python3 scripts/segment_lao.py -i <input_file> -o <output_file>
 ```
 
 ### Arguments
