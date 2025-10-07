@@ -198,21 +198,19 @@ Output:
 
 If you use this repository or our dataset in your research, please cite the following paper:
 ```Cite
-Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models. Informatica, ...(...), ...–....
+Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. 
+**Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models**. *Informatica* (under review).
 ```
 
 ### 📚 BibTeX
 
 ```bibtex
 @article{nguyen2025lao,
-  author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
-  title     = {Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models},
-  journal   = {Informatica},
-  volume    = {...},
-  number    = {...},
-  pages     = {....},
-  year      = {2025},
-  doi       = {..../.....}
+  author  = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
+  title   = {Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models},
+  journal = {Informatica},
+  year    = {2025},
+  note    = {Under review}
 }
 ```
 
