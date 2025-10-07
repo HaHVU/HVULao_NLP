@@ -54,7 +54,7 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 ---
 
 ## 📊 Evaluation Results
-|---------------------------|-----------|----------|----------|
+
 | Model                     | Precision | Recall   | F1 score |
 |---------------------------|:---------:|:--------:|:--------:|
 | CRF++                     |   0.15    |  0.04    |   0.06   |
@@ -62,7 +62,7 @@ This is a command-line tool for Lao word segmentation using a fine-tuned `transf
 | Flores                    |   0.56    |  0.45    |   0.50   |
 | mBERT                     |   0.33    |  0.11    |   0.16   |
 | **Our model**             | **0.76**  | **0.74** | **0.75** |
-|---------------------------|-----------|----------|----------|
+
 ## Requirements
 
 - Python 3.7+
