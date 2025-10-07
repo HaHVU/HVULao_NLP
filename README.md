@@ -150,7 +150,7 @@ Update the constants `TRAIN_JSON` and `TEST_JSON` inside the script if paths dif
 
 ### ▶️ Run Command
 ```bash
-python FineTuneSegLaowithseeds.py
+python scripts/FineTuneSegLaowithseeds.py
 ```
 Outputs:
 - `results_multi_seed/` – trained checkpoints  
