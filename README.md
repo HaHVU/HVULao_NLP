@@ -1,4 +1,3 @@
-readme_content = """
 # HVULao_NLP
 
 **HVULao_NLP** is a project dedicated to sharing datasets and tools for Lao Natural Language Processing (NLP), developed and maintained by the research team at **Hung Vuong University (HVU), Phu Tho, Vietnam**.  
@@ -118,11 +117,58 @@ python3 segment_lao.py -i ./data/lao_raw.txt -o ./output/lao_segmented.txt
 
 ---
 
-## How It Works
+## 🧪 Fine-tuning (Reproducing the Paper Results)
 
-- Loads a fine-tuned token classification model (`lao_finetuned_10k`)
-- Performs word segmentation based on B-WORD label prediction
-- Outputs segmented sentences to the specified output file
+This repository also provides the full training script used in our paper:  
+**`FineTuneSegLaowithseed.py`** — a multi-seed fine-tuning pipeline for **XLM-RoBERTa-base**, training on the **10 k Lao segmentation corpus** and evaluating on the **1 k gold test set**.
+
+### ⚙️ Training Configuration
+| Component | Value |
+|------------|--------|
+| Model | `xlm-roberta-base` |
+| Tokenizer | `XLMRobertaTokenizer` |
+| Labels | `{"O": 0, "B-WORD": 1, "I-WORD": 2}` |
+| Max sequence length | 128 |
+| Batch size | 4 (per device) |
+| Accumulation steps | 4 |
+| Learning rate | 2 × 10⁻⁵ |
+| Weight decay | 0.02 |
+| Warm-up ratio | 0.1 |
+| Epochs | 10 |
+| FP16 | Enabled |
+| Seeds | 42|
+
+> Hardware: NVIDIA RTX 3090 (24 GB VRAM); training time ≈ 40 minutes per run.
+
+### 🧩 Data Paths
+Use either:
+- Root-level files: `Model10000.JSON` (train 10 k) and `testtag1k.json` (test 1 k), **or**
+- Foldered versions: `Datatrain10k/10ktraintag.json` and `Datatest1k/testtag1k.json`.
+
+Update the constants `TRAIN_JSON` and `TEST_JSON` inside the script if paths differ.
+
+### ▶️ Run Command
+```bash
+python FineTuneSegLaowithseed.py
+```
+Outputs:
+- `results_multi_seed/` – trained checkpoints  
+- `logs_multi_seed/` – training logs  
+- `eval_multi_seed/` – predictions + CSV with per-seed Precision/Recall/F1  
+
+The script prints the **mean ± standard deviation** across seeds (as reported in the paper).
+
+---
+
+## 🔒 Reproducibility Details
+To ensure exact reproducibility:
+
+```bash
+pip install torch==2.3.0 transformers==4.53.0 datasets==2.21.0 accelerate==0.33.0
+```
+
+All toolchain components (tokenizer, versions, fine-tuning script) are now fully documented here and in the dataset card.  
+This enables reviewers and researchers to reproduce both **training** and **evaluation** faithfully while keeping the paper concise.
 
 ---
 
@@ -148,7 +194,7 @@ Output:
 
 ---
 
-## 📄 Citation
+## 💄 Citation
 
 If you use this repository or our dataset in your research, please cite the following paper:
 ```Cite
@@ -168,7 +214,7 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. B
 
 ```
 
-## 📬 Contact
+## 📩 Contact
 
 - **Ha Nguyen-Tien** (Corresponding author)  
   Email: nguyentienha@hvu.edu.vn
@@ -188,4 +234,3 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. B
 ---
 
 *This repository is part of our ongoing effort to support Lao NLP and make language technology more accessible for underrepresented and low-resource languages.*
-"""
