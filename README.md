@@ -136,7 +136,7 @@ This repository also provides the full training script used in our paper:
 | Warm-up ratio | 0.1 |
 | Epochs | 10 |
 | FP16 | Enabled |
-| Seeds | 42|
+| Seeds | 42 |
 
 > Hardware: NVIDIA RTX 3090 (24 GB VRAM); training time ≈ 40 minutes per run.
 
@@ -194,24 +194,26 @@ Output:
 
 ---
 
-## 💄 Citation
+## 📜 Citation
 
 If you use this repository or our dataset in your research, please cite the following paper:
 ```Cite
-Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. Building Word Segmentation and POS-Tagging Corpora for Low-Resource Languages: Method and Application. ACM Trans. Asian Low-Resour. Lang. Inf. Process. (TALLIP). https://doi.org/XXXXXXX.XXXXXXX
+Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models. Informatica, ...(...), ...–....
 ```
+
 ### 📚 BibTeX
 
 ```bibtex
-@article{nguyen2025building,
+@article{nguyen2025lao,
   author    = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
-  title     = {xxxx},
-  journal = {xxxxxx},
+  title     = {Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models},
+  journal   = {Informatica},
+  volume    = {...},
+  number    = {...},
+  pages     = {....},
   year      = {2025},
-  note      = {Submitting},
-  doi       = {xxx.xxx/XXXXXXX.XXXXXXX}
+  doi       = {10.15388/23.49.2.12340}
 }
-
 ```
 
 ## 📩 Contact
