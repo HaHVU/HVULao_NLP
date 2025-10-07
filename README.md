@@ -212,7 +212,7 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025. S
   number    = {...},
   pages     = {....},
   year      = {2025},
-  doi       = {10.15388/23.49.2.12340}
+  doi       = {..../.....}
 }
 ```
 
