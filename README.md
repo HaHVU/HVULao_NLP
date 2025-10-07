@@ -120,7 +120,7 @@ python3 segment_lao.py -i ./data/lao_raw.txt -o ./output/lao_segmented.txt
 ## 🧪 Fine-tuning (Reproducing the Paper Results)
 
 This repository also provides the full training script used in our paper:  
-**`FineTuneSegLaowithseed.py`** — a multi-seed fine-tuning pipeline for **XLM-RoBERTa-base**, training on the **10 k Lao segmentation corpus** and evaluating on the **1 k gold test set**.
+**`FineTuneSegLaowithseeds.py`** — a multi-seed fine-tuning pipeline for **XLM-RoBERTa-base**, training on the **10 k Lao segmentation corpus** and evaluating on the **1 k gold test set**.
 
 ### ⚙️ Training Configuration
 | Component | Value |
