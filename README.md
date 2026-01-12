@@ -210,8 +210,12 @@ Ha Nguyen-Tien, Thongphan Palongve, Cuong Nguyen-Quy, and Kien Le-Trung. 2025.
   author  = {Nguyen-Tien, Ha and Palongve, Thongphan and Nguyen-Quy, Cuong and Le-Trung, Kien},
   title   = {Semi-Automatic Construction and Benchmarking of a Word-Segmented Corpus for Lao Using LLMs and Transformer Models},
   journal = {Informatica},
+  volume  = {49},
+  number  = {27},
+  pages   = {379--394},
   year    = {2025},
-  note    = {Under review}
+  doi     = {10.31449/inf.v49i27.11195},
+  url     = {https://informatica.si/index.php/informatica/article/view/11195}
 }
 ```
 
